@@ -450,3 +450,21 @@ print(message)
 message = "Меня зовут " + name + ", мне " + str(age) + " лет"
 print(message)
 ```
+### 14. Возвратные функции
+```py
+a = 10
+
+def is10():
+    if a == 10:
+        return True
+    else:
+        return False
+
+if is10():
+    print("a равно 10")
+else:
+    print("a не равно 10")
+```
+>[!note]
+>### Теория:
+>Если `a` = 10, то возвращается функция `True`, иначе - `False`

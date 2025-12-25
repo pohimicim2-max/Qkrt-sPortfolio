@@ -176,6 +176,24 @@ end
 
 coroutine.wrap(countdown)()  -- Запуск корутины
 ```
+Возвратные функции
+```lua
+a = 10
+
+function Test()
+if a ~= 10 then
+return false 
+    end
+end
+
+if Test() then
+    print(a == a)
+else
+    print(a ~= a)
+end
+-- Если а НЕ ровно 10, то возвращается false
+```
+
 
 >[!tip]
 >### Для начало работы в роблокс студио:

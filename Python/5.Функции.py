@@ -10,7 +10,6 @@ print(introduce("Иван"))
 print(introduce("Мария", 25, "СПб"))     
 
 def sum_all(*numbers):
-    """Суммирует все переданные числа"""
     total = 0
     for num in numbers:
         total += num
